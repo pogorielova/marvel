@@ -1,0 +1,78 @@
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -3px;
+  background-color: #E5001D;
+  line-height: 24px;
+  padding: 0;
+  padding-right: 4px;
+  margin-right: 50px;
+}
+
+.navigation-link {
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  margin: 0 5px;
+  transition: all .2s;
+}
+
+.navigation-link:hover {
+  color: rgb(216, 81, 81);
+  text-decoration: none;
+}
+
+.characters {
+  padding: 15px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 250px;
+}
+
+.list-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.list-group-item {
+  background-color: #343a40;
+  text-align: center;
+  width: 300px;
+  margin: 2px;
+  transition: all .2s;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-image: linear-gradient(rgb(150, 1, 21), #343a40) ;
+ }
+
+.pic-container {
+  width: 260px;
+  height: 260px;
+  overflow: hidden;
+  border-radius: 3px;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.pic {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  object-position: left;
+}
+
+.hero-name {
+  margin-bottom: 10px;
+}
